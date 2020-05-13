@@ -260,13 +260,7 @@ body {
         background-color: #333;
     }
 
-    .Desktop-Nav-li {
-        display: inline;
-        float: left;
-    }
-
     .Desktop-Nav-a {
-        display: block;
         float: left;
         text-align: center;
         padding: 18px 20px;
