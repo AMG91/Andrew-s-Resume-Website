@@ -26,7 +26,6 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
@@ -86,8 +85,8 @@ body {
 }
 
 #Moblie-nav-bar-logo {
-    background-color: rgb(13, 121, 85);
-    color: white;
+    background-color: rgb(0, 255, 204);
+    color: rgb(0, 0, 0);
     display: block;
 }
 
@@ -108,16 +107,39 @@ body {
 
 #Contact-Page-Message{
     text-align: center;
-    margin-top: 1em;
+    margin-top: 1.4em;
 }
 
 #Contact-Form {
     display: grid;
-    grid-row-gap: 1.5em;
+    grid-row-gap: 1.4em;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(0, 255, 204);
+    border-radius: 1em;
 }
 
 #Contact-Form label {
     text-align: center;
+}
+
+#Contact-Form input{
+    width: 95%;
+    margin: auto;
+    border: none;
+    border-radius: 1em;
+}
+
+#fname-label{
+    margin-top: 1em;
+}
+
+#message-textarea{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 1em;
 }
 
 /* media Queries for portrait */
