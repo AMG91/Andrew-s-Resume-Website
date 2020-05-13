@@ -10,6 +10,7 @@
 
 body {
     margin: 0;
+    display: grid;
 }
 
 #Desktop-Nav {
@@ -96,6 +97,27 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/* This is for the contact form */
+
+#Contact-Page {
+    display: grid;
+    grid-row-gap: 2em;
+}
+
+#Contact-Page-Message{
+    text-align: center;
+    margin-top: 1em;
+}
+
+#Contact-Form {
+    display: grid;
+    grid-row-gap: 1.5em;
+}
+
+#Contact-Form label {
+    text-align: center;
 }
 
 /* media Queries for portrait */
