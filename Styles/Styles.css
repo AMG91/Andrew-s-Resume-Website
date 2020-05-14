@@ -26,7 +26,7 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0, 0.9);
+    background-color: rgb(0,0,0);
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -107,16 +107,22 @@ body {
 
 #Contact-Page-Message{
     text-align: center;
-    margin-top: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.4rem;
+    font-size: 1.5rem;
+    width: 85%;
+    font-weight: 900;
 }
 
 #Contact-Form {
     display: grid;
     grid-row-gap: 1.4em;
-    width: 95%;
+    width: 80%;
     margin: auto;
     background-color: rgb(0, 255, 204);
     border-radius: 1em;
+    margin-bottom: 4rem;
 }
 
 #Contact-Form label {
@@ -128,6 +134,7 @@ body {
     margin: auto;
     border: none;
     border-radius: 1em;
+    font-size: 1rem;
 }
 
 #fname-label{
@@ -137,7 +144,7 @@ body {
 #message-textarea{
     width: 95%;
     margin: auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     border: none;
     border-radius: 1em;
 }
