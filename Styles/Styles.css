@@ -87,13 +87,13 @@ body {
 }
 
 #Moblie-nav-bar-logo {
-    background-color: rgb(0, 255, 204);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: block;
 }
 
 #Moblie-nav-bar-icon {
-    background: black;
+    background-color: rgb(105, 0, 0);
     display: block;
     position: absolute;
     right: 0;
@@ -111,15 +111,26 @@ body {
     background-size: cover;
 }
 
-#Contact-Page-Message{
+#Contact-Page-Message {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+#Contact-Page-Message h1 {
+    margin: 1rem;
     font-size: 2.5rem;
-    width: 85%;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
+}
+
+#Contact-Page-Message p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 #Contact-Form {
@@ -127,13 +138,16 @@ body {
     grid-row-gap: 1.4em;
     width: 80%;
     margin: auto;
-    background-color: rgb(0, 255, 204);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
     border-radius: 1em;
     margin-bottom: 4rem;
 }
 
 #Contact-Form label {
     text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 #Contact-Form input{
@@ -155,6 +169,11 @@ body {
     padding: 1rem;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+}
+
+#Contact-Form button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #fname-label{
@@ -327,31 +346,25 @@ body {
     }
 
     #Desktop-Nav {
-        display: block;
+        display: grid;
+        grid-gap: 3.5rem;
         position: fixed;
         top: 0;
-        width: 100%;
-        
-    }
-
-    #Desktop-Nav-ul {
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-        background-color: #333;
     }
 
     .Desktop-Nav-a {
-        float: left;
+        display: block;
         text-align: center;
-        padding: 18px 20px;
+        padding: 0.5rem;
         font-size: 22px;
+        font-weight: 900;
         color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 2.5rem;
     }
 
     .Desktop-Nav-a:hover, .Desktop-Nav-a-active {
-        background-color: rgb(0, 255, 204);
-        color: rgb(0, 0, 0);
+        background-color: rgba(105, 0, 0, 0.4);
     }
 
 }
