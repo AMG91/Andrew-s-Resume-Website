@@ -173,6 +173,8 @@ body {
     font-size: 1rem;
 }
 
+/* This is for the about page */
+
 /* media Queries for portrait */
 
 @media (min-width: 320px) {
