@@ -139,8 +139,13 @@ body {
     text-align: center;
 }
 
+#Contact-Page-Message h1 {
+    font-size: 1.5em;
+}
+
 #Contact-Page-Message p {
     margin-bottom: 0.5em;
+    font-size: 1em;
 }
 
 #Contact-Form {
@@ -297,7 +302,15 @@ body {
     .Moblie-nav-bar-li a{
         padding: 16px 18px;
         font-size: 20px;
-    }   
+    }
+
+    #Contact-Page-Message h1 {
+        font-size: 2em;
+    }
+    
+    #Contact-Page-Message p {
+        font-size: 1em;
+    }
 
 }
 
@@ -316,6 +329,27 @@ body {
         padding: 35px;
         font-size: 77px;
     }
+
+    /* formating the contact page for bigger screens */
+
+    #Contact-Page {
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 0em;
+    }
+
+    #Contact-Page-Message{
+        margin-bottom: 4em;
+    }
+
+    #Contact-Form {
+        margin-top: 4em;
+    }
+
+    #Contact-Page-Message p {
+        font-size: 2em;
+    }
+
+    
 
 }
 
