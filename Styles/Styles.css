@@ -180,6 +180,11 @@ body {
     font-size: 1.5em;
 }
 
+#Contact-Form button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
 #Contact-Form textarea {
     height: 10em;
 }
