@@ -9,7 +9,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     display: grid;
 }
 
@@ -104,92 +104,84 @@ body {
 
 #Contact-Page {
     display: grid;
-    grid-row-gap: 2em;
+    grid-template-columns: 1fr;
+    grid-gap: 4em;
     background-image: url('../assets/IMG/code_coding_computer_data.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#Contact-Page-Message {
-    text-align: center;
+#Contact-Form, #Contact-Page-Message {
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
-    width: 80%;
-    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#Contact-Page-Message, #Contact-Form {
+    background-color: rgba(0, 0, 0, 0.9);
     color: rgb(255, 255, 255);
     border-radius: 0.5em;
 }
 
-#Contact-Page-Message h1 {
-    margin: 1rem;
-    font-size: 2.5rem;
+#Contact-Page-Message {
+    margin-top: 4em;
+    grid-gap: 1em;
+    display: grid;
+}
+
+#Contact-Page-Message h1, p {
+    margin-top: 0.5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #Contact-Page-Message p {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
 #Contact-Form {
     display: grid;
-    grid-row-gap: 1.4em;
-    width: 80%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(255, 255, 255);
-    border-radius: 0.5em;
-    margin-bottom: 4rem;
+    margin-bottom: 4em;
+    grid-gap: 1em;
 }
 
-#Contact-Form label {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 900;
-}
-
-#Contact-Form input{
-    width: 85%;
-    margin: auto;
+#Contact-Form label, input, button, textarea {
     border: none;
-    border-radius: 0.5em;
-    font-size: 1rem;
-    padding: 0.5rem;
-}
-
-#Contact-Form button {
     width: 85%;
-    margin: auto;
-    margin-bottom: 1rem;
-    border: none;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 0.5em;
-    font-size: 1.5rem;
-    padding: 1rem;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
 }
 
-#Contact-Form button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+#Contact-Form input, textarea {
+    padding: 0.5em;
 }
 
-#fname-label{
+#fname-label {
     margin-top: 1em;
 }
 
-#message-textarea{
-    width: 85%;
-    margin: auto;
-    margin-bottom: 2em;
-    border: none;
-    border-radius: 0.5em;
-    padding: 0.5rem;
-    height: 12rem;
-    resize: none;
-    font-size: 1rem;
+#Contact-Form label {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+#Contact-Form button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+#Contact-Form textarea {
+    height: 10em;
 }
 
 /* This is for the about page */
