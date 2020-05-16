@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro:wght@200&display=swap');
 
 * {
     list-style-type: none;
@@ -411,6 +411,31 @@ body {
     }
 
     #Desktop-Nav {
-        display: inline;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        overflow: hidden;
     }
+
+    .Desktop-Nav-Li {
+        display: inline-Block;
+        margin: 0.5em 0.5em;
+    }
+
+    .Desktop-Nav-a {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        padding: 0.5em;
+    }
+
+    .Desktop-Nav-a:hover {
+        text-decoration: underline;
+    }
+
 }
