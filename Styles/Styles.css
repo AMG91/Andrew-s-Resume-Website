@@ -164,6 +164,8 @@ body {
 
 #Contact-Form input, textarea {
     padding: 0.5em;
+    font-size: 1em;
+    font-weight: 900;
 }
 
 #fname-label {
@@ -349,7 +351,9 @@ body {
         font-size: 2em;
     }
 
-    
+    #Contact-Form input, textarea {
+        font-size: 1.2em;
+    }
 
 }
 
@@ -436,6 +440,12 @@ body {
 
     .Desktop-Nav-a:hover {
         text-decoration: underline;
+    }
+
+    /* formating the contact page for even bigger screens */
+
+    #Contact-Form {
+        text-align: left;
     }
 
 }
