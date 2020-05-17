@@ -196,6 +196,34 @@ body {
     height: 10em;
 }
 
+/* This is for the socail media links */
+
+#social-media-links {
+    background-color: rgb(0, 0, 0);
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#social-media-ul li {
+    margin: 30px;
+}
+
+#social-media-ul li a i {
+    color:rgb(255, 255, 255)
+}
+
+/* This is for the Footer */
+
+#Copy-right-line {
+    background-color: rgb(105, 105, 105);
+    display: grid;
+    text-align: center;
+}
+
 /* This is for the about page */
 
 #about-page {
