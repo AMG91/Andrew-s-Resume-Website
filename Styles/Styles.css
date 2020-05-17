@@ -221,7 +221,17 @@ body {
 #Copy-right-line {
     background-color: rgb(105, 105, 105);
     display: grid;
+    grid-gap: 15px;
+    padding-bottom: 15px;
+}
+
+#Copy-right-line h1{
+    margin-top: 15px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 85%;
 }
 
 /* This is for the about page */
@@ -342,6 +352,13 @@ body {
         font-size: 1em;
     }
 
+    /* This is for the social media links on bigger screens */
+
+    #social-media-ul li {
+        display: inline-block;
+        margin: 30px 90px;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -381,6 +398,26 @@ body {
 
     #Contact-Form input, textarea {
         font-size: 1.2em;
+    }
+
+    /* This is for the social media links on bigger screens */
+
+    #social-media-ul li {
+        margin: 30px 130px;
+    }
+
+    /* Copyright line for bigger screens */
+
+    #Copy-right-line h1 {
+        font-size: 30px;
+    }
+
+    #Copy-right-line p {
+        font-size: 30px;
+    }
+
+    #Contact-Form {
+        text-align: left;
     }
 
 }
@@ -471,9 +508,5 @@ body {
     }
 
     /* formating the contact page for even bigger screens */
-
-    #Contact-Form {
-        text-align: left;
-    }
 
 }
