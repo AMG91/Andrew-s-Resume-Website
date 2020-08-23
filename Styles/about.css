@@ -1,0 +1,75 @@
+/* This is for the about page */
+
+#about-page {
+    display: grid;
+}
+
+#about-page-message {
+    background-image: url('../assets/IMG/code-4333398_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+
+#about-page-message-h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+#about-page-message-p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3.5rem;
+    color: rgb(0, 0, 0);
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 0.5em;
+}
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 414px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-height: 320px) {
+
+}
+
+@media (min-height: 414px) {
+
+}
+
+/* media Queries for landscaped i phone X*/
+
+@media (min-height: 375px) and (min-width: 812px) {
+
+}
+
+/* media Queries for landscaped big screens*/
+
+@media (min-width: 1367px) {
+    
+}

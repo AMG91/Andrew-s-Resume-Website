@@ -1,0 +1,39 @@
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 375px) {
+
+}
+
+@media (min-width: 414px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-height: 320px) {
+
+}
+
+@media (min-height: 414px) {
+
+}
+
+/* media Queries for landscaped i phone X*/
+
+@media (min-height: 375px) and (min-width: 812px) {
+
+}
+
+/* media Queries for landscaped big screens*/
+
+@media (min-width: 1367px) {
+    
+}
