@@ -121,6 +121,10 @@ body {
 }
 
 #Home-Page-Message {
+    background-image: url('../assets/IMG/office-932926_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     width: 100%;
     height: 30em;
@@ -141,6 +145,10 @@ body {
 }
 
 #Home-About-Page-Message {
+    background-image: url('../assets/IMG/web-design-2906159_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     width: 100%;
     height: 25em;
@@ -166,6 +174,10 @@ body {
 }
 
 #Home-Contact-Page-Message {
+    background-image: url('../assets/IMG/business-2717063_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     width: 100%;
     height: 25em;
