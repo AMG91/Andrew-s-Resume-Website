@@ -109,10 +109,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 50em;
+}
+
+#Home-Page-Banner h1 {
     text-align: center;
-    padding-top: 50em;
+    font-size: 10em;
+    color: #f1f1f1;
+    margin: auto;
 }
 
 /* This is for the contact form */
