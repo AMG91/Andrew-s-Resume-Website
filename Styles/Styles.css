@@ -120,6 +120,12 @@ body {
     margin: auto;
 }
 
+#Home-Page-Message {
+    display: grid;
+    width: 100%;
+    height: 25em;
+}
+
 /* This is for the contact form */
 
 #Contact-Page {
