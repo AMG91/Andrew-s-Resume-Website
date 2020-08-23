@@ -100,6 +100,16 @@ body {
     top: 0;
 }
 
+/* this is for the home page */
+
+#home-page-banner {
+    display: grid;
+    background-image: url('../assets/IMG/home_page_pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* This is for the contact form */
 
 #Contact-Page {
