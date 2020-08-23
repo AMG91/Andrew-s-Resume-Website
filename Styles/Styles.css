@@ -548,6 +548,28 @@ body {
         text-align: left;
     }
 
+     /* This is for the home page on bigger screens */
+
+     #Home-Page-Banner {
+        height: 55em;
+     }
+
+     #Home-Page-Message {
+        height: 55em;
+     }
+
+     #Home-About-Page-Message {
+        height: 55em;
+     }
+
+     #Home-Contact-Page-Message {
+        height: 55em;
+     }
+
+     #Home-Resume-Work-Page-Message{
+        height: 55em;
+     }
+
 }
 
 /* media Queries for landscape*/
