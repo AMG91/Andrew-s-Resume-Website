@@ -110,20 +110,20 @@ body {
     background-size: cover;
     width: 100%;
     height: 50em;
+    text-align: center;
 }
 
 #Home-Page-Banner h1 {
-    text-align: center;
     font-size: 5em;
     font-weight: 900;
     color: #000000;
-    margin: auto;
 }
 
 #Home-Page-Message {
     display: grid;
     width: 100%;
     height: 25em;
+    text-align: center;
 }
 
 /* This is for the contact form */
