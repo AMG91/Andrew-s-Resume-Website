@@ -100,102 +100,6 @@ body {
     top: 0;
 }
 
-/* This is for the contact form */
-
-#Contact-Page {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 4em;
-    background-image: url('../assets/IMG/code_coding_computer_data.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#Contact-Form, #Contact-Page-Message {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#Contact-Page-Message, #Contact-Form {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: rgb(255, 255, 255);
-    border-radius: 0.5em;
-}
-
-#Contact-Page-Message {
-    margin-top: 4em;
-    grid-gap: 1em;
-    display: grid;
-}
-
-#Contact-Page-Message h1, p {
-    margin-top: 0.5em;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#Contact-Page-Message h1 {
-    font-size: 1.5em;
-}
-
-#Contact-Page-Message p {
-    margin-bottom: 0.5em;
-    font-size: 1em;
-}
-
-#Contact-Form {
-    display: grid;
-    margin-bottom: 4em;
-    grid-gap: 1em;
-}
-
-#Contact-Form label, input, button, textarea {
-    border: none;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0.5em;
-}
-
-#Contact-Form input, textarea {
-    padding: 0.5em;
-    font-size: 1em;
-    font-weight: 900;
-}
-
-#fname-label {
-    margin-top: 1em;
-}
-
-#Contact-Form label {
-    font-weight: 900;
-    font-size: 1.5em;
-}
-
-#Contact-Form button {
-    margin-bottom: 1em;
-    padding: 0.5em;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 2em;
-    font-weight: 900;
-    font-size: 1.5em;
-}
-
-#Contact-Form button:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
-
-#Contact-Form textarea {
-    height: 10em;
-}
-
 /* This is for the socail media links */
 
 #social-media-links {
@@ -305,14 +209,6 @@ body {
         font-size: 20px;
     }
 
-    #Contact-Page-Message h1 {
-        font-size: 2em;
-    }
-    
-    #Contact-Page-Message p {
-        font-size: 1em;
-    }
-
     /* This is for the social media links on bigger screens */
 
     #social-media-ul li {
@@ -338,29 +234,6 @@ body {
         font-size: 77px;
     }
 
-    /* formating the contact page for bigger screens */
-
-    #Contact-Page {
-        grid-template-columns: 1fr 3fr;
-        grid-gap: 0em;
-    }
-
-    #Contact-Page-Message{
-        margin-bottom: 4em;
-    }
-
-    #Contact-Form {
-        margin-top: 4em;
-    }
-
-    #Contact-Page-Message p {
-        font-size: 2em;
-    }
-
-    #Contact-Form input, textarea {
-        font-size: 1.2em;
-    }
-
     /* This is for the social media links on bigger screens */
 
     #social-media-ul li {
@@ -376,33 +249,6 @@ body {
     #Copy-right-line p {
         font-size: 30px;
     }
-
-    #Contact-Form {
-        text-align: left;
-    }
-
-     /* This is for the home page on bigger screens */
-
-     #Home-Page-Banner {
-        height: 55em;
-     }
-
-     #Home-Page-Message {
-        height: 55em;
-     }
-
-     #Home-About-Page-Message {
-        height: 55em;
-     }
-
-     #Home-Contact-Page-Message {
-        height: 55em;
-     }
-
-     #Home-Resume-Work-Page-Message{
-        height: 55em;
-     }
-
 }
 
 /* media Queries for landscape*/
