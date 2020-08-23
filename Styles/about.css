@@ -15,10 +15,9 @@
 #about-page-message-h1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-top: 2.5em;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
@@ -26,7 +25,8 @@
 #about-page-message-p {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.5rem;
+    margin-top: 5em;
+    margin-bottom: 5em;
     color: rgb(0, 0, 0);
     width: 75%;
     background-color: rgba(255, 255, 255, 0.9);
@@ -71,5 +71,5 @@
 /* media Queries for landscaped big screens*/
 
 @media (min-width: 1367px) {
-    
+
 }
